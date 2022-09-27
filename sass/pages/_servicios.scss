@@ -56,6 +56,15 @@
                     box-shadow: 0px 1px 26px 1px #dedede;
                 }
 
+                &:hover .service-img {
+                    transform: translateY(-45px);
+                    transition: 0.5s;
+                }
+
+                &:hover img{
+                    transform: rotate(360deg);
+                }
+
                 .services-bg {
                     display: flex;
                     justify-content: center;
@@ -72,10 +81,12 @@
                         background: #fff;
                         opacity: inherit;
                         border-radius: 50%;
+                        transition: 0.5s;
 
                         img {
                             height: 80px;
                             width: 80px;
+                            transition: transform 0.5s;
                         }
                     }
 
@@ -108,10 +119,11 @@
         }
     }
 
-    .footer-servicios{
+    .footer-servicios {
         margin-top: 20px;
     }
 }
+
 /////////* ------------------ *//////////
 /////////* END SERVICIOS PAGE *//////////
 /////////*    MOBILE FIRST    *//////////
