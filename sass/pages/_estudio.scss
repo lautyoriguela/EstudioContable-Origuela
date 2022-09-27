@@ -1,0 +1,310 @@
+/////////* ------------------ *//////////
+/////////* START ESTUDIO PAGE *//////////
+/////////*    MOBILE FIRST    *//////////
+/////////* ------------------ *//////////
+
+/* Start Background Image + Info - "El Estudio" */
+.estudio-body {
+    background: center fixed url(../images/pages/estudio.png);
+    background-size: cover;
+
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .el-estudio-superior {
+            height: 105vh;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+
+            .estudio-text {
+                text-align: center;
+
+                .title-container {
+                    margin-bottom: 20px;
+
+                    span {
+                        color: #dedede;
+                        text-shadow: 3px 3px #000;
+                        font-size: 3rem;
+                        font-weight: bold;
+                    }
+                }
+
+                .text-container {
+                    p {
+                        color: #dedede;
+                        text-shadow: 1px 1px #000;
+                        font-size: 1.2rem;
+                    }
+                }
+
+            }
+        }
+
+        /* End Background Image + Info - "El Estudio" */
+
+
+
+
+
+        /* Start - "Germán Origuela Info" */
+        .el-estudio-inferior {
+            height: 95vh;
+            display: flex;
+            background: linear-gradient(to bottom, #E1E1E1, #9c9c9c);
+            border-top: 2px solid #9c9c9c;
+
+            .container-image {
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    height: 300px;
+                    width: 300px;
+                    border-radius: 50%;
+                }
+            }
+
+            .estudio-info {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .name-container {
+                    text-align: center;
+                    margin-top: 15px;
+
+                    span {
+                        margin-top: 15px;
+                        color: #000000;
+                        font-size: 2rem;
+                        font-weight: bold;
+                        text-shadow: 3px 3px #fff;
+                    }
+                }
+
+                .german-info-container {
+                    text-align: center;
+                    margin-top: 15px;
+                    padding: 5px;
+
+                    p {
+                        color: #000;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        /* End - "Germán Origuela Info" */
+    }
+}
+
+/////////* ---------------- *//////////
+/////////* END ESTUDIO PAGE *//////////
+/////////*   MOBILE FIRST   *//////////
+/////////* ---------------- *//////////
+
+
+
+
+
+
+
+//////////* ------------------- *//////////
+//////////* START MEDIA QUERIES *//////////
+//////////* ------------------- *//////////
+
+
+/////* Start Tablet View - Portrait */////
+
+@media screen and (min-width: 480px) {
+
+    .estudio-body {
+        main {
+            .el-estudio-superior {
+                height: 90vh;
+
+                .estudio-text {
+                    .text-container {
+                        margin-bottom: 50px;
+
+                        span {
+                            font-size: 4rem;
+                        }
+                    }
+                }
+            }
+
+            /* End Background Image + Info - "El Estudio" */
+
+
+
+
+
+            /* Start - "Germán Origuela Info" */
+            .el-estudio-inferior {
+                height: 90vh;
+            }
+
+            /* End - "Germán Origuela Info" */
+        }
+    }
+}
+
+/////* End Tablet View - Portrait */////
+
+
+
+/////* Start Tablet View - Landscape */////
+
+@media screen and (min-width: 768px) {
+
+    .estudio-body {
+        main {
+            .el-estudio-superior {
+                .estudio-text {
+                    .text-container {
+                        p {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+
+            /* End Background Image + Info - "El Estudio" */
+
+
+
+
+            /* Start - "Germán Origuela Info" */
+            .el-estudio-inferior {
+                display: flex;
+                align-items: center;
+
+                .container-image {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        height: 400px;
+                        width: 400px;
+                    }
+                }
+
+                .estudio-info {
+                    .name-container {
+                        span {
+                            font-size: 3rem;
+                        }
+                    }
+
+                    .german-info-container {
+                        p {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            /* End - "Germán Origuela Info" */
+        }
+    }
+}
+
+/////* End Tablet View - Landscape */////
+
+
+
+/////* Start Notebook View */////
+
+@media screen and (min-width: 1024px) {
+
+    .estudio-body {
+        main {
+            .el-estudio-superior {
+                height: 75vh;
+
+                .estudio-text {
+                    .text-container {
+                        margin-bottom: 100px;
+                    }
+                }
+            }
+
+            /* End Background Image + Info - "El Estudio" */
+
+
+
+
+
+            /* Start - "Germán Origuela Info" */
+            .el-estudio-inferior {
+                height: 75vh;
+
+                .estudio-info {
+                    .name-container {
+                        span {
+                            font-size: 3.2rem;
+                        }
+                    }
+
+                    .german-info-container {
+                        p {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+
+            /* End - "Germán Origuela Info" */
+        }
+    }
+}
+
+/////* End Notebook View */////
+
+
+
+/////* Start Desktop View */////
+
+@media screen and (min-width: 1200px) {
+
+    .estudio-body {
+        main {
+            .el-estudio-superior {
+                height: 65vh;
+
+                .text-container {
+                    margin-top: 60px;
+                }
+            }
+
+            /* End Background Image + Info - "El Estudio" */
+
+
+
+
+            /* Start - "Germán Origuela Info" */
+            .el-estudio-inferior {
+                height: 55vh;
+            }
+
+            /* End - "Germán Origuela Info" */
+        }
+    }
+}
+
+/////* End Desktop View */////
+
+
+
+//////////* ----------------- *//////////
+//////////* END MEDIA QUERIES *//////////
+//////////* ----------------- *//////////

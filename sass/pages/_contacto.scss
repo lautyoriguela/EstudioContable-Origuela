@@ -1,0 +1,22 @@
+.contactoCenter{
+    display: flex;
+    justify-content: space-between;
+
+    .empty-boxUno{
+        height: 100px;
+    }
+
+    .empty-boxDos{
+        height: 100px;
+    }
+
+    .form-container{
+        background-color: rgb(233, 233, 233);
+        border: 2px rgb(0, 0, 0) solid;
+        border-radius: 5%;
+        padding: 20px;
+        height: 400px;
+        width: 500px;
+        margin: 50px;
+    }
+}

@@ -1,0 +1,12 @@
+.clientes-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .card{
+        border: none;
+        h5{
+            text-align: center;
+        }
+    }
+}

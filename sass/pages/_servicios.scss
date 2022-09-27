@@ -1,0 +1,141 @@
+/////////* -------------------- *////////// 
+/////////* START SERVICIOS PAGE *//////////
+/////////*     MOBILE FIRST     *//////////
+/////////* -------------------- *//////////
+
+/* Start  - "Servicios" */
+
+.servicios-body {
+    background: center fixed url(../images/pages/servicios.png);
+    background-size: cover;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .tittle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+            .tittle-services {
+                text-align: center;
+
+                span {
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: #dedede;
+                    text-shadow: 3px 3px #000;
+                }
+            }
+        }
+
+        section {
+            border: 2px solid red;
+            padding: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .services {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 400px;
+                padding: 10px 20px;
+                margin-top: 15px;
+                background: #171717;
+                opacity: 0.8;
+                border-radius: 20px;
+
+                .services-bg {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+
+                    .service-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 150px;
+                        width: 150px;
+                        background: #fff;
+                        opacity: inherit;
+                        border-radius: 50%;
+
+                        img {
+                            height: 100px;
+                            width: 100px;
+                        }
+                    }
+
+                    .service-tittle {
+                        display: flex;
+                        flex-direction: column;
+                        opacity: inherit;
+                        margin-top: 10px;
+
+                        span {
+                            color: #fff;
+                            text-shadow: 2px 2px #000;
+                            font-size: 1.850rem;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .service-info {
+                        margin-top: 5px;
+                        opacity: inherit;
+
+                        p {
+                            color: #fff;
+                            font-size: 1.125rem;
+                            text-shadow: 1px 1px #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/////////* ------------------ *//////////
+/////////* END SERVICIOS PAGE *//////////
+/////////*    MOBILE FIRST    *//////////
+/////////* ------------------ *//////////
+
+
+
+
+
+
+
+//////////* ------------------- *//////////
+//////////* START MEDIA QUERIES *//////////
+//////////* ------------------- *//////////
+
+
+/////* Start Tablet View - Landscape */////
+
+@media screen and (min-width: 768px) {
+
+    .servicios-body {
+        main {
+            .tittle-container {
+                .tittle-services {
+                    span {
+                        font-size: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/////* End Tablet View - Landscape */////

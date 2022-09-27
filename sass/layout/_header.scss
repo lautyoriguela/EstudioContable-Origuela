@@ -1,0 +1,97 @@
+header {
+    .navbar {
+        padding: 0px 10px;
+
+        a {
+            img {
+                height: 115px;
+            }
+        }
+
+        .navbar-collapse {
+            ul {
+                li {
+                    a {
+                        position: relative;
+                        color: #fff;
+                        font-size: 19px;
+                        letter-spacing: 0.5px;
+
+                        &:hover {
+                            color: #ffae00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* Start Desktop View */
+
+@media screen and (min-width: 992px) {
+
+    header {
+        .navbar {
+            padding: 0px 80px;
+            display: flex;
+            justify-content: space-between;
+
+            .navbar-brand {
+                img {
+                    height: 150px;
+                }
+            }
+
+            .navbar-collapse {
+                ul {
+                    li {
+                        padding: 0px 3px;
+
+                        a {
+                            position: relative;
+                            color: inherit;
+                            color: #fff;
+                            font-weight: 500;
+                            font-size: 19px;
+                            letter-spacing: 0.5px;
+
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                background-color: #2377FF;
+                                height: 2px;
+                                width: 0;
+                                left: 0;
+                                bottom: 0;
+                                transition: 0.3s;
+                            }
+
+                            &:hover {
+                                color: #ffae00;
+                            }
+
+                            &:hover:after {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* End Desktop View */
+
+
+
+
+// ///////* HEADER - SERVICIOS *///////
+// .header-servicios{
+//     background-color: #171717;
+// }
+// ///////* HEADER - SERVICIOS *///////
