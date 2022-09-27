@@ -545,9 +545,6 @@ footer .iconos ul li a:hover {
   text-shadow: 3px 3px #000;
 }
 .servicios-body main section {
-  border: 2px solid red;
-  padding: 20px;
-  margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -557,13 +554,16 @@ footer .iconos ul li a:hover {
   justify-content: center;
   align-items: center;
   height: 400px;
+  width: 250px;
+  margin: 1rem;
   padding: 10px 20px;
-  margin-top: 15px;
   background: #171717;
   opacity: 0.8;
   border-radius: 20px;
-  width: 250px;
-  margin: 1rem;
+  cursor: pointer;
+}
+.servicios-body main section .services:hover {
+  background: #dc143c;
 }
 .servicios-body main section .services .services-bg {
   display: flex;
@@ -576,15 +576,15 @@ footer .iconos ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   background: #fff;
   opacity: inherit;
   border-radius: 50%;
 }
 .servicios-body main section .services .services-bg .service-img img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 .servicios-body main section .services .services-bg .service-tittle {
   display: flex;
@@ -608,6 +608,16 @@ footer .iconos ul li a:hover {
   text-shadow: 1px 1px #000;
 }
 
+@media screen and (min-width: 480px) {
+  .servicios-body main section .services {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .servicios-body main section .services {
+    width: 330px;
+  }
+}
 .clientes-container {
   padding: 10px;
   display: flex;
