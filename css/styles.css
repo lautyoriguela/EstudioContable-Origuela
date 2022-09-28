@@ -121,6 +121,10 @@ footer .iconos ul li a:hover {
   filter: none;
 }
 
+.footer-servicios {
+  margin-top: 50px;
+}
+
 /* Start Background Image + Info - "Index" */
 .index-body {
   background: center fixed url(../images/pages/index.png);
@@ -554,25 +558,43 @@ footer .iconos ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 350px;
   width: 250px;
-  margin: 1rem;
-  padding: 10px 20px;
+  margin: 1em 1em 3em 1em;
+  padding: 1em;
   background: #171717;
   opacity: 0.8;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.5s;
 }
 .servicios-body main section .services:hover {
   background: #000;
   box-shadow: 0px 1px 26px 1px #dedede;
+  transition: 0.5s !important;
+  height: auto;
 }
 .servicios-body main section .services:hover .service-img {
-  transform: translateY(-45px);
+  transform: translateY(-10px);
   transition: 0.5s;
+  margin-top: 20px;
 }
 .servicios-body main section .services:hover img {
   transform: rotate(360deg);
+}
+.servicios-body main section .services:hover .service-tittle {
+  transform: translateY(-10px);
+  transition: 0.5s;
+  margin-top: 20px !important;
+}
+.servicios-body main section .services:hover .service-info {
+  margin-top: 20px !important;
+  transition: 0.5s !important;
+  display: block !important;
+}
+.servicios-body main section .services:hover .service-info p {
+  font-size: 15px !important;
+  transition: 0.5s !important;
 }
 .servicios-body main section .services .services-bg {
   display: flex;
@@ -601,25 +623,26 @@ footer .iconos ul li a:hover {
   display: flex;
   flex-direction: column;
   opacity: inherit;
-  margin-top: 10px;
+  transition: 0.5s;
+  margin-top: 20px;
 }
 .servicios-body main section .services .services-bg .service-tittle span {
   color: #fff;
   text-shadow: 2px 2px #000;
   font-size: 1.85rem;
   font-weight: bold;
+  line-height: 1.1;
 }
 .servicios-body main section .services .services-bg .service-info {
-  margin-top: 5px;
-  opacity: inherit;
+  display: none;
+  transition: 0.5s;
 }
 .servicios-body main section .services .services-bg .service-info p {
-  color: #fff;
-  font-size: 1.125rem;
+  color: #dedede;
+  font-size: 0px;
   text-shadow: 1px 1px #000;
-}
-.servicios-body .footer-servicios {
-  margin-top: 20px;
+  transition: 0.5s;
+  line-height: 1.1;
 }
 
 @media screen and (min-width: 480px) {
