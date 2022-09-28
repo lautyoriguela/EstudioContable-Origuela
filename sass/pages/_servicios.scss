@@ -1,4 +1,4 @@
-/////////* -------------------- *////////// 
+/////////* -------------------- *//////////
 /////////* START SERVICIOS PAGE *//////////
 /////////*     MOBILE FIRST     *//////////
 /////////* -------------------- *//////////
@@ -52,7 +52,7 @@
                 cursor: pointer;
                 transition: 0.5s;
 
-                &:hover{
+                &:hover {
                     background: #000;
                     box-shadow: 0px 1px 26px 1px #fff;
                     transition: 0.5s;
@@ -76,7 +76,7 @@
                 }
 
                 &:hover .service-info.service-info {
-                    margin-top: 20px ;
+                    margin-top: 20px;
                     display: block;
                 }
 
@@ -169,6 +169,7 @@
             section {
                 .services {
                     width: 300px;
+                    transition: none;
                 }
             }
         }
@@ -188,6 +189,7 @@
             section {
                 .services {
                     width: 330px;
+                    transition: none;
                 }
             }
         }
@@ -195,3 +197,93 @@
 }
 
 /////* Start Tablet View - Landscape */////
+
+
+
+
+/////* Start Notebook View */////
+
+@media screen and (min-width: 1024px) {
+    .servicios-body {
+        main {
+            section {
+                .services {
+                    width: 224px;
+                    transition: none;
+
+                    .services-bg {
+                        .service-img {
+                            height: 100px;
+                            width: 100px;
+
+                            img {
+                                height: 60px;
+                                width: 60px;
+                            }
+                        }
+
+                        .service-tittle {
+                            span {
+                                font-size: 1.650rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/////* End Notebook View */////
+
+
+
+
+/////* Start Desktop View */////
+
+@media screen and (min-width: 1200px){
+    .servicios-body {
+        main {
+            section {
+                .services {
+                    width: 268px;
+
+                    .services-bg {
+                        .service-img {
+                            height: 120px;
+                            width: 120px;
+
+                            img {
+                                height: 80px;
+                                width: 80px;
+                            }
+                        }
+
+                        .service-tittle {
+                            span {
+                                font-size: 1.850rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/////* End Desktop View */////
+
+
+/////* Start Long Screen View */////
+@media screen and (min-width: 1528px){
+    .servicios-body {
+        main {
+            section {
+                .services {
+                    width: 350px;                    
+                }
+            }
+        }
+    }
+}
+/////* Start Long Screen View */////

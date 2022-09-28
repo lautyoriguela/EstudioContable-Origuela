@@ -644,11 +644,51 @@ footer .iconos ul li a:hover {
 @media screen and (min-width: 480px) {
   .servicios-body main section .services {
     width: 300px;
+    transition: none;
   }
 }
 @media screen and (min-width: 768px) {
   .servicios-body main section .services {
     width: 330px;
+    transition: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .servicios-body main section .services {
+    width: 224px;
+    transition: none;
+  }
+  .servicios-body main section .services .services-bg .service-img {
+    height: 100px;
+    width: 100px;
+  }
+  .servicios-body main section .services .services-bg .service-img img {
+    height: 60px;
+    width: 60px;
+  }
+  .servicios-body main section .services .services-bg .service-tittle span {
+    font-size: 1.65rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .servicios-body main section .services {
+    width: 268px;
+  }
+  .servicios-body main section .services .services-bg .service-img {
+    height: 120px;
+    width: 120px;
+  }
+  .servicios-body main section .services .services-bg .service-img img {
+    height: 80px;
+    width: 80px;
+  }
+  .servicios-body main section .services .services-bg .service-tittle span {
+    font-size: 1.85rem;
+  }
+}
+@media screen and (min-width: 1528px) {
+  .servicios-body main section .services {
+    width: 350px;
   }
 }
 .clientes-container {
