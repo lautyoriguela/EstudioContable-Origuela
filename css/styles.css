@@ -492,13 +492,13 @@ footer .iconos ul li a:hover {
     /* End - "Germán Origuela Info" */
   }
   .estudio-body main .el-estudio-superior {
-    height: 75vh;
+    height: 90vh;
   }
   .estudio-body main .el-estudio-superior .estudio-text .text-container {
     margin-bottom: 100px;
   }
   .estudio-body main .el-estudio-inferior {
-    height: 75vh;
+    height: 90vh;
   }
   .estudio-body main .el-estudio-inferior .estudio-info .name-container span {
     font-size: 3.2rem;
@@ -513,14 +513,11 @@ footer .iconos ul li a:hover {
     /* Start - "Germán Origuela Info" */
     /* End - "Germán Origuela Info" */
   }
-  .estudio-body main .el-estudio-superior {
-    height: 65vh;
-  }
   .estudio-body main .el-estudio-superior .text-container {
     margin-top: 60px;
   }
   .estudio-body main .el-estudio-inferior {
-    height: 55vh;
+    height: 70vh;
   }
 }
 /* Start  - "Servicios" */
