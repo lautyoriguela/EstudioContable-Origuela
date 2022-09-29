@@ -491,14 +491,8 @@ footer .iconos ul li a:hover {
     /* Start - "Germán Origuela Info" */
     /* End - "Germán Origuela Info" */
   }
-  .estudio-body main .el-estudio-superior {
-    height: 80vh;
-  }
   .estudio-body main .el-estudio-superior .estudio-text .text-container {
     margin-bottom: 100px;
-  }
-  .estudio-body main .el-estudio-inferior {
-    height: 80vh;
   }
   .estudio-body main .el-estudio-inferior .estudio-info .name-container span {
     font-size: 3.2rem;
