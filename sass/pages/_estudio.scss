@@ -229,7 +229,7 @@
     .estudio-body {
         main {
             .el-estudio-superior {
-                height: 90vh;
+                height: 80vh;
 
                 .estudio-text {
                     .text-container {
@@ -246,7 +246,7 @@
 
             /* Start - "Germán Origuela Info" */
             .el-estudio-inferior {
-                height: 90vh;
+                height: 80vh;
 
                 .estudio-info {
                     .name-container {
@@ -278,7 +278,10 @@
 
     .estudio-body {
         main {
-            .el-estudio-superior {.text-container {
+            .el-estudio-superior {
+                height: 60vh;
+
+                .text-container {
                     margin-top: 60px;
                 }
             }
@@ -290,7 +293,7 @@
 
             /* Start - "Germán Origuela Info" */
             .el-estudio-inferior {
-                height: 70vh;
+                height: 50vh;
             }
 
             /* End - "Germán Origuela Info" */

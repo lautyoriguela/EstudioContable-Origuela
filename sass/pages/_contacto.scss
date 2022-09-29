@@ -1,22 +1,14 @@
-.contactoCenter{
-    display: flex;
-    justify-content: space-between;
+/////////* ------------------- *//////////
+/////////* START CONTACTO PAGE *//////////
+/////////*     MOBILE FIRST    *//////////
+/////////* ------------------- *//////////
 
-    .empty-boxUno{
-        height: 100px;
-    }
+/* Start Background Image + Contact Form */
+.contacto-body{
+    background: center fixed url(../images/pages/contacto.png);
+    background-size: cover;
 
-    .empty-boxDos{
-        height: 100px;
-    }
-
-    .form-container{
-        background-color: rgb(233, 233, 233);
-        border: 2px rgb(0, 0, 0) solid;
-        border-radius: 5%;
-        padding: 20px;
-        height: 400px;
-        width: 500px;
-        margin: 50px;
+    main{
+        height: 100vh;
     }
 }
