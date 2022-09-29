@@ -1,12 +1,14 @@
-.clientes-container{
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
+/////////* ------------------- *//////////
+/////////* START CLIENTES PAGE *//////////
+/////////*     MOBILE FIRST    *//////////
+/////////* ------------------- *//////////
 
-    .card{
-        border: none;
-        h5{
-            text-align: center;
-        }
+/* Start Background Image + Contact Form */
+.clientes-body{
+    background: center fixed url(../images/pages/clientes.png);
+    background-size: cover;
+
+    main{
+        height: 100vh;
     }
 }

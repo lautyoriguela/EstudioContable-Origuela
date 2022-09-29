@@ -671,16 +671,13 @@ footer .iconos ul li a:hover {
     width: 350px;
   }
 }
-.clientes-container {
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
+/* Start Background Image + Contact Form */
+.clientes-body {
+  background: center fixed url(../images/pages/clientes.png);
+  background-size: cover;
 }
-.clientes-container .card {
-  border: none;
-}
-.clientes-container .card h5 {
-  text-align: center;
+.clientes-body main {
+  height: 100vh;
 }
 
 /* Start Background Image + Contact Form */
