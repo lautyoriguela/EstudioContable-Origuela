@@ -374,7 +374,6 @@ footer .iconos ul li a:hover {
   /* End - "Germán Origuela Info" */
 }
 .estudio-body main .el-estudio-superior {
-  height: 105vh;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -383,7 +382,7 @@ footer .iconos ul li a:hover {
   text-align: center;
 }
 .estudio-body main .el-estudio-superior .estudio-text .title-container {
-  margin-bottom: 20px;
+  margin: 20px 0px 20px 0px;
 }
 .estudio-body main .el-estudio-superior .estudio-text .title-container span {
   color: #dedede;
@@ -397,10 +396,10 @@ footer .iconos ul li a:hover {
   font-size: 1.2rem;
 }
 .estudio-body main .el-estudio-inferior {
-  height: 95vh;
   display: flex;
   background: linear-gradient(to bottom, #E1E1E1, #9c9c9c);
   border-top: 2px solid #9c9c9c;
+  padding-bottom: 50px;
 }
 .estudio-body main .el-estudio-inferior .container-image {
   margin-top: 30px;
@@ -444,17 +443,11 @@ footer .iconos ul li a:hover {
     /* Start - "Germán Origuela Info" */
     /* End - "Germán Origuela Info" */
   }
-  .estudio-body main .el-estudio-superior {
-    height: 90vh;
-  }
   .estudio-body main .el-estudio-superior .estudio-text .text-container {
     margin-bottom: 50px;
   }
   .estudio-body main .el-estudio-superior .estudio-text .text-container span {
     font-size: 4rem;
-  }
-  .estudio-body main .el-estudio-inferior {
-    height: 90vh;
   }
 }
 @media screen and (min-width: 768px) {
@@ -507,14 +500,8 @@ footer .iconos ul li a:hover {
     /* Start - "Germán Origuela Info" */
     /* End - "Germán Origuela Info" */
   }
-  .estudio-body main .el-estudio-superior {
-    height: 60vh;
-  }
   .estudio-body main .el-estudio-superior .text-container {
     margin-top: 60px;
-  }
-  .estudio-body main .el-estudio-inferior {
-    height: 50vh;
   }
 }
 /* Start  - "Servicios" */

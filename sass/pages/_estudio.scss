@@ -16,7 +16,6 @@
         flex-wrap: wrap;
 
         .el-estudio-superior {
-            height: 105vh;
             display: flex;
             align-items: center;
             padding: 10px;
@@ -25,7 +24,7 @@
                 text-align: center;
 
                 .title-container {
-                    margin-bottom: 20px;
+                    margin: 20px 0px 20px 0px;
 
                     span {
                         color: #dedede;
@@ -54,10 +53,10 @@
 
         /* Start - "Germán Origuela Info" */
         .el-estudio-inferior {
-            height: 95vh;
             display: flex;
             background: linear-gradient(to bottom, #E1E1E1, #9c9c9c);
             border-top: 2px solid #9c9c9c;
+            padding-bottom: 50px;
 
             .container-image {
                 margin-top: 30px;
@@ -129,7 +128,6 @@
     .estudio-body {
         main {
             .el-estudio-superior {
-                height: 90vh;
 
                 .estudio-text {
                     .text-container {
@@ -150,7 +148,6 @@
 
             /* Start - "Germán Origuela Info" */
             .el-estudio-inferior {
-                height: 90vh;
             }
 
             /* End - "Germán Origuela Info" */
@@ -275,7 +272,6 @@
     .estudio-body {
         main {
             .el-estudio-superior {
-                height: 60vh;
 
                 .text-container {
                     margin-top: 60px;
@@ -289,7 +285,6 @@
 
             /* Start - "Germán Origuela Info" */
             .el-estudio-inferior {
-                height: 50vh;
             }
 
             /* End - "Germán Origuela Info" */
