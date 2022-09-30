@@ -109,10 +109,10 @@
         background: linear-gradient(to bottom, #E1E1E1, #9c9c9c);
         border-top: 2px solid #9c9c9c;
 
-        .card-service {
+        .card-service.card-service {
             margin-top: -50px;
             margin-bottom: 50px;
-            padding-bottom: 2em;
+            padding-bottom: 0.5em;
             transition: 0.5s;
 
             &:hover {
