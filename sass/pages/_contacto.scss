@@ -129,7 +129,6 @@
 
 
 /////* Start Tablet View - Landscape */////
-
 @media screen and (min-width: 768px) {
 
     .contacto-body {
@@ -149,7 +148,7 @@
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
-                    
+
 
                     p {
                         i {
@@ -182,7 +181,6 @@
 
 
 /////* Start Notebook View */////
-
 @media screen and (min-width: 1024px) {
     .contacto-body {
         main {
@@ -191,9 +189,7 @@
                 padding: 40px;
 
                 .mail-container {
-
                     p {
-
                         i {
                             font-size: 18px;
                         }
