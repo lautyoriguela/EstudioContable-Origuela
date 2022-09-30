@@ -78,6 +78,7 @@
                 &:hover .service-info.service-info {
                     margin-top: 20px;
                     display: block;
+                    transition-duration: 1s;
                 }
 
                 &:hover .service-info.service-info p {
@@ -196,7 +197,7 @@
     }
 }
 
-/////* Start Tablet View - Landscape */////
+/////* End Tablet View - Landscape */////
 
 
 
@@ -286,4 +287,4 @@
         }
     }
 }
-/////* Start Long Screen View */////
+/////* End Long Screen View */////

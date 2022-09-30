@@ -125,6 +125,10 @@ footer .iconos ul li a:hover {
   margin-top: 50px;
 }
 
+.footer-contacto {
+  margin-top: 100px;
+}
+
 /* Start Background Image + Info - "Index" */
 .index-body {
   background: center fixed url(../images/pages/index.png);
@@ -567,6 +571,7 @@ footer .iconos ul li a:hover {
 .servicios-body main section .services:hover .service-info.service-info {
   margin-top: 20px;
   display: block;
+  transition-duration: 1s;
 }
 .servicios-body main section .services:hover .service-info.service-info p {
   font-size: 15px;
@@ -686,5 +691,91 @@ footer .iconos ul li a:hover {
   background-size: cover;
 }
 .contacto-body main {
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contacto-body main .contact-section {
+  padding: 20px;
+  width: 90%;
+  background: #000;
+  box-shadow: 0px 1px 26px 1px #fff;
+  opacity: 0.8;
+}
+.contacto-body main .contact-section .tittle-container {
+  text-align: center;
+}
+.contacto-body main .contact-section .tittle-container span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #dedede;
+  text-shadow: 3px 3px #000;
+}
+.contacto-body main .contact-section .form-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+.contacto-body main .contact-section .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.contacto-body main .contact-section .form-container form .contact-text {
+  background: #111;
+  color: #dedede;
+  width: 100%;
+  margin: 16px 0;
+  padding: 15px 25px;
+  border: 0;
+  border-radius: 25px;
+  outline: none;
+  transition: 0.5s;
+}
+.contacto-body main .contact-section .form-container form .contact-text:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+.contacto-body main .contact-section .form-container form textarea {
+  resize: none;
+  height: 120px;
+}
+.contacto-body main .contact-section .form-container form .container-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.contacto-body main .contact-section .form-container form .container-button .contact-button {
+  background: transparent;
+  text-align: center;
+  margin: 0.5em 0.1em;
+  padding: 0.8em 0;
+  width: 10em;
+  border: 2px solid #ffae00;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.4s;
+}
+.contacto-body main .contact-section .form-container form .container-button .contact-button:hover {
+  border: none;
+  color: #000000;
+  background: #ffae00;
+  transition: 0.4s;
+}
+
+@media screen and (min-width: 768px) {
+  .contacto-body main .contact-section {
+    width: 35em;
+    padding: 50px;
+  }
+  .contacto-body main .contact-section .tittle-container span {
+    font-size: 50px;
+    text-shadow: 3px 3px #000;
+  }
+  .contacto-body main .contact-section .form-container form .container-button .contact-button {
+    width: 13em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contacto-body main .contact-section {
+    width: 40em;
+  }
 }/*# sourceMappingURL=styles.css.map */
