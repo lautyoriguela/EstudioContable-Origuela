@@ -143,13 +143,13 @@ footer .iconos ul li a:hover {
 }
 .index-body main {
   width: 100%;
-  height: 90vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
 }
 .index-body main .info-estudio {
+  margin-bottom: 50px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -224,6 +224,7 @@ footer .iconos ul li a:hover {
 }
 .index-body .servicios-index .card-service {
   margin-top: -50px;
+  margin-bottom: 50px;
   padding-bottom: 2em;
   transition: 0.5s;
 }
@@ -277,9 +278,6 @@ footer .iconos ul li a:hover {
 
 /* Start Background Image + Info - "Index" */
 @media screen and (min-width: 768px) {
-  .index-body main {
-    height: 75vh;
-  }
   .index-body main .info-estudio .container-info {
     display: flex;
     flex-direction: row;
@@ -316,10 +314,9 @@ footer .iconos ul li a:hover {
 @media screen and (min-width: 1024px) {
   .index-body main {
     padding: 10px;
-    height: 90vh;
   }
   .index-body main .info-estudio {
-    margin-bottom: 150px;
+    margin-bottom: 80px;
   }
   .index-body main .info-estudio .container-info {
     display: flex;
