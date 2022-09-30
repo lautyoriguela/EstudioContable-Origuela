@@ -30,8 +30,30 @@
                 }
             }
 
+            .mail-container {
+                margin-top: 5px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    padding: 5px;
+                    margin: 0;
+
+                    i {
+                        color: #dedede;
+                        font-size: 17px;
+                        margin-right: 5px;
+                    }
+
+                    span {
+                        color: #dedede;
+                        font-size: 16px;
+                    }
+                }
+            }
+
             .form-container {
-                margin-top: 20px;
                 padding: 10px;
 
                 form {
@@ -112,9 +134,9 @@
 
     .contacto-body {
         main {
-            .contact-section.contact-section{
+            .contact-section.contact-section {
                 width: 35em;
-                padding: 50px;
+                padding: 22px;
 
                 .tittle-container {
                     span {
@@ -123,16 +145,33 @@
                     }
                 }
 
-                .form-container{
-                    form{
-                        .container-button{
-                            .contact-button{
+                .mail-container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    
+
+                    p {
+                        i {
+                            font-size: 18px;
+                        }
+
+                        span {
+                            font-size: 17px;
+                        }
+                    }
+                }
+
+                .form-container {
+                    form {
+                        .container-button {
+                            .contact-button {
                                 width: 13em;
                             }
                         }
-                    }                    
+                    }
                 }
-            }            
+            }
         }
     }
 }
@@ -147,9 +186,24 @@
 @media screen and (min-width: 1024px) {
     .contacto-body {
         main {
-            .contact-section.contact-section{
+            .contact-section.contact-section {
                 width: 40em;
-            }            
+                padding: 40px;
+
+                .mail-container {
+
+                    p {
+
+                        i {
+                            font-size: 18px;
+                        }
+
+                        span {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

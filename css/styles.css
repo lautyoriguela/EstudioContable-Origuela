@@ -710,8 +710,26 @@ footer .iconos ul li a:hover {
   font-weight: bold;
   color: #dedede;
 }
+.contacto-body main .contact-section.contact-section .mail-container {
+  margin-top: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contacto-body main .contact-section.contact-section .mail-container p {
+  padding: 5px;
+  margin: 0;
+}
+.contacto-body main .contact-section.contact-section .mail-container p i {
+  color: #dedede;
+  font-size: 17px;
+  margin-right: 5px;
+}
+.contacto-body main .contact-section.contact-section .mail-container p span {
+  color: #dedede;
+  font-size: 16px;
+}
 .contacto-body main .contact-section.contact-section .form-container {
-  margin-top: 20px;
   padding: 10px;
 }
 .contacto-body main .contact-section.contact-section .form-container form {
@@ -763,11 +781,22 @@ footer .iconos ul li a:hover {
 @media screen and (min-width: 768px) {
   .contacto-body main .contact-section.contact-section {
     width: 35em;
-    padding: 50px;
+    padding: 22px;
   }
   .contacto-body main .contact-section.contact-section .tittle-container span {
     font-size: 50px;
     text-shadow: 3px 3px #000;
+  }
+  .contacto-body main .contact-section.contact-section .mail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contacto-body main .contact-section.contact-section .mail-container p i {
+    font-size: 18px;
+  }
+  .contacto-body main .contact-section.contact-section .mail-container p span {
+    font-size: 17px;
   }
   .contacto-body main .contact-section.contact-section .form-container form .container-button .contact-button {
     width: 13em;
@@ -776,5 +805,12 @@ footer .iconos ul li a:hover {
 @media screen and (min-width: 1024px) {
   .contacto-body main .contact-section.contact-section {
     width: 40em;
+    padding: 40px;
+  }
+  .contacto-body main .contact-section.contact-section .mail-container p i {
+    font-size: 18px;
+  }
+  .contacto-body main .contact-section.contact-section .mail-container p span {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=styles.css.map */
