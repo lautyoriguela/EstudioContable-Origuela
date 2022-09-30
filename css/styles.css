@@ -129,6 +129,10 @@ footer .iconos ul li a:hover {
   margin-top: 100px;
 }
 
+.footer-clientes {
+  margin-top: 50px;
+}
+
 /* Start Background Image + Info - "Index" */
 .index-body {
   background: center fixed url(../images/pages/index.png);
