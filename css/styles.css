@@ -793,7 +793,7 @@ footer .iconos ul li a:hover {
   margin-top: 50px;
 }
 .contacto-body main .contact-section.contact-section {
-  padding: 20px;
+  padding: 8px;
   width: 90%;
   background: #000;
   box-shadow: 0px 1px 26px 10px rgb(65, 65, 65);
@@ -856,23 +856,38 @@ footer .iconos ul li a:hover {
   justify-content: center;
   margin-top: 15px;
 }
-.contacto-body main .contact-section.contact-section .form-container form .container-button .contact-button {
+.contacto-body main .contact-section.contact-section .form-container form .container-button button {
   background: transparent;
   text-align: center;
   margin: 0.5em 0.1em;
   padding: 0.8em 0;
-  width: 10em;
+  width: 13em;
   border: 2px solid #ffae00;
   border-radius: 25px;
   font-weight: bold;
-  color: #fff;
-  transition: 0.4s;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  cursor: pointer;
 }
-.contacto-body main .contact-section.contact-section .form-container form .container-button .contact-button:hover {
+.contacto-body main .contact-section.contact-section .form-container form .container-button button:hover span {
+  width: 100%;
+}
+.contacto-body main .contact-section.contact-section .form-container form .container-button button:hover {
   border: none;
   color: #000000;
+}
+.contacto-body main .contact-section.contact-section .form-container form .container-button button span {
   background: #ffae00;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   transition: 0.4s;
+  z-index: -1;
 }
 
 @media screen and (min-width: 768px) {
@@ -895,8 +910,12 @@ footer .iconos ul li a:hover {
   .contacto-body main .contact-section.contact-section .mail-container p span {
     font-size: 17px;
   }
-  .contacto-body main .contact-section.contact-section .form-container form .container-button .contact-button {
-    width: 13em;
+  .contacto-body main .contact-section.contact-section .form-container form .container-button button {
+    margin-right: 25px;
+    text-shadow: 2px 2px #000;
+  }
+  .contacto-body main .contact-section.contact-section .form-container form .container-button button:hover {
+    text-shadow: none;
   }
 }
 @media screen and (min-width: 1024px) {
