@@ -6,7 +6,7 @@
 /* Start Background Image + Info - "El Estudio" */
 .estudio-body {
     background: center fixed url(../images/pages/estudio.png);
-    background-size: cover;
+    background-size: cover;    
 
     main {
         width: 100%;
@@ -14,6 +14,7 @@
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+        overflow-x: hidden;
 
         .el-estudio-superior {
             display: flex;

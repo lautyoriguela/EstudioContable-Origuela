@@ -374,6 +374,7 @@ footer .iconos ul li a:hover {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  overflow-x: hidden;
   /* End Background Image + Info - "El Estudio" */
   /* Start - "Germán Origuela Info" */
   /* End - "Germán Origuela Info" */
