@@ -1,5 +1,5 @@
 footer {
-    border-top: 3px solid #2377ff;
+    border-top: map-get($borders, footerBorderTop);
     background-color: #171717;    
     height: 115px;
     width: 100%;

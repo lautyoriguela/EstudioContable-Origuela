@@ -56,7 +56,7 @@
         .el-estudio-inferior {
             display: flex;
             background: linear-gradient(to bottom, #E1E1E1, #9c9c9c);
-            border-top: 2px solid #9c9c9c;
+            border-top: map-get($borders, separatorTopEdge);
             padding-bottom: 50px;
 
             .container-image {

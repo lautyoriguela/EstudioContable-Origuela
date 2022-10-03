@@ -1,4 +1,20 @@
 @charset "UTF-8";
+.contacto-body main .contact-section.contact-section .form-container form .container-button button, .index-body main .info-estudio .container-info .container-buttons button {
+  background: transparent;
+  text-align: center;
+  margin: 0.5em 0.1em;
+  padding: 0.8em 0;
+  width: 13em;
+  border: 2px solid #ffae00;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -172,21 +188,6 @@ footer .iconos ul li a:hover {
 .index-body main .info-estudio .container-info .container-buttons {
   display: flex;
   flex-direction: column;
-}
-.index-body main .info-estudio .container-info .container-buttons button {
-  background: transparent;
-  text-align: center;
-  margin: 0.5em 0.1em;
-  padding: 0.8em 0;
-  width: 13em;
-  border: 2px solid #ffae00;
-  border-radius: 25px;
-  font-weight: bold;
-  color: #ffffff;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
-  cursor: pointer;
 }
 .index-body main .info-estudio .container-info .container-buttons button:hover span {
   width: 100%;
@@ -848,21 +849,6 @@ footer .iconos ul li a:hover {
   display: flex;
   justify-content: center;
   margin-top: 15px;
-}
-.contacto-body main .contact-section.contact-section .form-container form .container-button button {
-  background: transparent;
-  text-align: center;
-  margin: 0.5em 0.1em;
-  padding: 0.8em 0;
-  width: 13em;
-  border: 2px solid #ffae00;
-  border-radius: 25px;
-  font-weight: bold;
-  color: #ffffff;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
-  cursor: pointer;
 }
 .contacto-body main .contact-section.contact-section .form-container form .container-button button:hover span {
   width: 100%;

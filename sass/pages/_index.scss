@@ -53,19 +53,7 @@
                     flex-direction: column;
 
                     button {
-                        background: transparent;
-                        text-align: center;
-                        margin: 0.5em 0.1em;
-                        padding: 0.8em 0;
-                        width: 13em;
-                        border: 2px solid #ffae00;
-                        border-radius: 25px;
-                        font-weight: bold;
-                        color: #ffffff;
-                        position: relative;
-                        overflow: hidden;
-                        z-index: 0;
-                        cursor: pointer;
+                        @extend %boton;
 
                         &:hover span {
                             width: 100%;
@@ -107,7 +95,7 @@
     /* Start Services Section "Index" */
     .servicios-index {
         background: linear-gradient(to bottom, #E1E1E1, #9c9c9c);
-        border-top: 2px solid #9c9c9c;
+        border-top: map-get($borders, separatorTopEdge);
 
         .card-service.card-service {
             margin-top: -50px;
