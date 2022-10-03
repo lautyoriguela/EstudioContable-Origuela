@@ -10,10 +10,7 @@
 
     main {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
+        @include flex($justify: center, $direction: column, $wrap: wrap);
         overflow-x: hidden;
 
         .el-estudio-superior {
