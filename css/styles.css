@@ -61,14 +61,6 @@ header .navbar .navbar-collapse ul li a:hover {
   }
 }
 /* End Desktop View */
-.container-subtitle {
-  border: 1px #EEEEEE;
-  display: flex;
-  justify-content: center;
-  padding: 25px;
-  background: linear-gradient(to bottom, #E1E1E1, #f9f9f9);
-}
-
 footer {
   border-top: 3px solid #2377ff;
   background-color: #171717;
